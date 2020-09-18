@@ -1,0 +1,239 @@
+* {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    }
+    
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #4E4E4E;
+   
+
+}    
+.bg-image-wrapper,
+.rappresent,
+.community,
+.implement{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.bg-image-wrapper{
+    height: 744px;
+    background-image: url(assets/bg-image.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: #000;
+    box-sizing: border-box;
+}
+header{
+    max-width: 1600px;
+    height: 95px;
+    margin: 0 auto; 
+}
+
+.blog-navigation ul{
+    display: flex;
+    max-width: 696px;
+    margin: 0 auto;
+    padding-top: 22px;
+     list-style: none;
+    align-items: center;
+    justify-content:space-around;
+    
+} 
+    
+.main-menu a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    padding-bottom: 3px;
+    /*border-bottom: 1px solid transparent;*/
+}
+
+.main-menu .active {
+    border-bottom: 1px solid #fff;
+    font-weight: 500;
+}
+.main-menu  a:hover{
+    border-bottom: 1px solid #fff;
+}
+.main-menu .logo:hover{
+    border-bottom: 1px solid transparent;
+}
+h1{
+    padding-top: 80px;
+}
+.slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 47%;
+    margin:0 auto;
+}
+.slogan-header{
+    padding-top: 35px;
+    color: #fff;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+}
+.slogan-text{
+    color:#fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 25px 123px; 
+}
+.btn-main{
+    width: 184px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #00AFDB;
+    color: #fff;
+    padding: 15px 20px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.social-icon img{
+    position: relative;
+    top: 183px;
+    padding: 0 13px;
+}
+
+.rappresent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 844px;
+}
+
+.content-block{
+    max-width: 390px;
+    position: relative;
+    bottom: 13px;
+}
+.content-block h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 28px;
+}
+.content-text{
+    font-size: 14px;
+    line-height: 140%;
+    padding-bottom: 19px;
+}
+.content-img{
+    position: relative;
+    bottom: 10px;
+    right: 2px;
+}
+.community{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 504px;
+    background: #F5F6F7;
+}
+
+.block-second{
+    position: relative;
+    bottom: 44px;
+    width: 894px;
+}
+.block-first{
+    position: relative;
+    left: 17%;
+    bottom: 1%;
+}
+.content-community{
+    width: 300px;
+    text-align: center;
+}
+.content-community h3{
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+}
+.text-community{
+    font-size: 14px;
+    line-height: 140%;
+}
+.img-slider{
+    display: flex;
+    padding-top: 63px;
+    overflow: hidden;
+}
+.img-slider img{
+    padding-right: 30px;
+}
+.btn-slider{
+    position: absolute;
+    top: 24px;
+    left: 64%;
+}
+.round-icon{
+    position: relative;
+    bottom: 15px;
+    right: 3px;
+}
+
+.left-nav{
+    position: absolute;
+    top: 11%;
+    right: 44px;
+    width: 14px;
+    height: 14px;
+    background-image: url(assets/nav-left.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+}
+.right-nav{
+    position: absolute;
+    left: 130%;
+    top: 20%;
+    width: 14px;
+    height: 14px;
+    background-image: url(assets/nav-right.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.left-nav:hover{
+    background-image: url(assets/nav-left-hover.png);
+    background-repeat: no-repeat;
+}
+.right-nav:hover{
+    background-image: url(assets/nav-right-hover.png);
+    background-repeat: no-repeat;
+}
+.implement{
+    height: 842px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.implement .content-block{
+    right: 8%;
+}
+.implement .content-img{
+    right: 0;
+    left: 2px;
+}
+    
