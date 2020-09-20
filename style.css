@@ -18,7 +18,9 @@ body{
 .bg-image-wrapper,
 .rappresent,
 .community,
-.implement{
+.implement,
+.subscribe,
+.download{
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -42,7 +44,7 @@ header{
     max-width: 696px;
     margin: 0 auto;
     padding-top: 22px;
-     list-style: none;
+    list-style: none;
     align-items: center;
     justify-content:space-around;
     
@@ -107,12 +109,14 @@ h1{
     margin-top: 7px;
     cursor: pointer;
 }
+.btn-main:hover{
+    background: #009CC2;
+}
 .social-icon img{
     position: relative;
     top: 183px;
     padding: 0 13px;
 }
-
 .rappresent{
     display: flex;
     align-items: center;
@@ -122,8 +126,7 @@ h1{
 
 .content-block{
     max-width: 390px;
-    position: relative;
-    bottom: 13px;
+    padding-bottom: 24px;
 }
 .content-block h2{
     font-size: 24px;
@@ -138,9 +141,7 @@ h1{
     padding-bottom: 19px;
 }
 .content-img{
-    position: relative;
-    bottom: 10px;
-    right: 2px;
+    padding-bottom: 18px;
 }
 .community{
     display: flex;
@@ -188,6 +189,9 @@ h1{
     top: 24px;
     left: 64%;
 }
+.btn-slider span{
+    font-weight: bold;
+}
 .round-icon{
     position: relative;
     bottom: 15px;
@@ -230,10 +234,170 @@ h1{
     justify-content: space-evenly;
 }
 .implement .content-block{
+    position: relative;
     right: 8%;
 }
 .implement .content-img{
-    right: 0;
-    left: 2px;
+    padding-left: 2px;
 }
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 522px;
+    background: url(assets/bg-forma.png);
+    background-repeat: no-repeat;
+}
+.subscribe h3{
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:#fff;
+    padding-bottom: 53px;
+}
+.btn-form{
+    width: 66px;
+    height: 46px;
+    background-color: #00AFDB;
+    margin-left: -4px;
+    cursor: pointer;
+}
+.btn-form::before{
+    content: '';
+    width: 18px;
+    height: 14px;
+    position: absolute;
+    top: 15px;
+    right: 23px;
+    background: url(assets/fa-check.png);
+}
+.btn-form:hover{
+    background: #009CC2;
+}
+form{
+    display: flex;
+}
+.forma-contact input{
+    width: 323px;
+    height: 46px;
+    padding-left: 20px;
+}
+.forma-contact{
+    position: relative;
+    bottom: 23px;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 468px;
+}
+.download h3{
+    margin-top: 120px;
+    margin-bottom: 23px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase; 
+}
+.btn-apple,
+.btn-android{
+    width: 128px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #00AFDB;
+    color: #fff;
+    padding: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.btn-android{
+    margin-left: 30px;
+}
+.btn-link.apple{
+    width: 60px;
+    height: 50px;
+    background: #009CC2;
+    margin-top: 15px;
+    background-image: url(assets/app-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.btn-link.apple:hover{
+    background-image: url(assets/app-icon-hover.png);
+}
+.btn-link.android{
+    width: 60px;
+    height: 50px;
+    background: #009CC2;
+    margin-top: 15px;
+    background-image: url(assets/android-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.btn-link.android:hover{
+    background-image: url(assets/android-icon-hover.png);
+}
+.btn-download{
+    display: flex;
+    margin-top: 14px;
+}
+
+.text-download{
+    width: 483px;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 184px;
+    background: #000;
+
+ }   
+.footer-navigation ul{
+    display: flex;
+    max-width: 696px;
+    margin: 0 auto;
+    padding-top: 22px;
+    list-style: none;
+    align-items: center;
+    justify-content:space-around;
     
+} 
+.footer-navigation{
+    margin: 47px 0 0 129px;
+}
+footer .logo{
+    padding: 56px 99px 0 0px;
+} 
+.footer-menu a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    padding-bottom: 3px;
+    /*border-bottom: 1px solid transparent;*/
+}
+.footer-menu a span{
+    margin: 0 20px;
+}
+
+.footer-menu  a:hover{
+    color:#00AFDB;
+}
+
+.copyright{
+    font-size: 14px;
+    line-height: 140%;
+    padding: 70px 132px 0 0;
+}
